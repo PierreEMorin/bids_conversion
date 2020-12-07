@@ -12,7 +12,7 @@ SIEMENS = ['Prisma_fit', 'TrioTim', 'Prisma', 'Skyra']
 GE = ['DISCOVERY_MR750', 'SIGNA_Pioneer', 'DISCOVERY_MR750w', 'Signa_HDxt']
 PHILIPS = ['Intera', 'Achieva', 'Ingenia', 'Achieva_dStream']
 
-CONFIG_FOLDER = '/home/bore/p/unf/s/bids_conversion/configs'
+CONFIG_FOLDER = '/home/pemorin/tools/bids_conversion/configs'
 
 MAIN_CONFIG = os.path.join(CONFIG_FOLDER, 'config.json')
 GE_CONFIG = os.path.join(CONFIG_FOLDER, 'config_ge_cimaq.json')
