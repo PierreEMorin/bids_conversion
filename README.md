@@ -2,7 +2,7 @@
 Scripts to convert data from CCNA and CIMAQ using dcm2bids
 
 Requirements
-* Requirements.txt (pip install -r Requirements.txt)
+* requirements.txt (pip install -r requirements.txt)
 * dcm2bids (https://github.com/UNFmontreal/Dcm2Bids)
 * dcm2niix (https://github.com/rordenlab/dcm2niix)
 
