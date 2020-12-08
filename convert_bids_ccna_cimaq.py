@@ -334,7 +334,7 @@ def main():
         # print(sub.candid, sub.pscid)
         sub.extract()
         sub.convert(args.oFolder)
-        sub.delete_filename()
+        #sub.delete_filename()
 
 
 if __name__ == '__main__':
