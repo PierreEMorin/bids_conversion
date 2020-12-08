@@ -7,5 +7,5 @@ Requirements
 * dcm2niix (https://github.com/rordenlab/dcm2niix)
 
 Run
-python3 convert_bids_ccna_cimaq.py /dicom_directory /output_directory mode (ccna or cimaq) > file
-bash ./file
+* python3 convert_bids_ccna_cimaq.py /dicom_directory /output_directory mode (ccna or cimaq) > file
+* bash ./file
