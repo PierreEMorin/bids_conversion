@@ -94,10 +94,13 @@ class IRMSession:
         self.run_command = run_command
 
     def get_session(self, session):
-        if session == 'Initial':
-            return 1
-        else:
-            return 2
+        if self.mode == 'ccna':
+            if session == 'Initial':
+                return 1
+            else:
+                return 2
+        elif self.mode == 'cimaq'
+            return session
 
     def getManufacturer(self):
         if self.scanner_model in SIEMENS:
