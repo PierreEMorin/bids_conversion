@@ -21,6 +21,7 @@ PHILIPS_CONFIG = os.path.join(CONFIG_FOLDER, 'config_philips_cimaq.json')
 QUEBEC_CONFIG = os.path.join(CONFIG_FOLDER, 'config_philips_cimaq_QC.json')
 CIMAQ_SIEMENS_CONFIG = ['IUGM', 'iugm', 'hospital_douglas',
                         'Mc_Connell_Brain_Imaging_Centre',
+                        'mc_connell_brain_imaging_centre',
                         'THE_OTTAWA_HOSPITAL_CIVIC',
                         'the_ottawa_hospital_civic_campus']
 TIME_SLEEP = 1
